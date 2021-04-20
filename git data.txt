@@ -1,0 +1,127 @@
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2)
+$ git init
+Initialized empty Git repository in C:/Users/PAKISTAN/Desktop/New folder (2)/.git/
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Capture.PNG
+        about.html
+        contact.html
+        index.html
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git add-A
+
+git: 'add-A' is not a git command. See 'git --help'.
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git add -A
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Capture.PNG
+        new file:   about.html
+        new file:   contact.html
+        new file:   index.html
+        new file:   style.css
+
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git cofig --global user.name "ahsan iqbal"
+git: 'cofig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git config --global "ahsan iqbal"
+error: key does not contain a section: ahsan iqbal
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ ^C
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git config --global user.name "ahsan iqbal"
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git config --global user.name "ahsan iqbal"
+
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$
+
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git config --global user.email "ahsaniqbal2050@gmail.com"
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git commit -m "work accomplish"
+[master (root-commit) cb2ed77] work accomplish
+ 5 files changed, 101 insertions(+)
+ create mode 100644 Capture.PNG
+ create mode 100644 about.html
+ create mode 100644 contact.html
+ create mode 100644 index.html
+ create mode 100644 style.css
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git remote add origin https://github.com/ahsaniqbal205/malik.git
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 616.96 KiB | 10.64 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/ahsaniqbal205/malik.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+PAKISTAN@DESKTOP-PSDU7F9 MINGW32 ~/Desktop/New folder (2) (master)
+$
